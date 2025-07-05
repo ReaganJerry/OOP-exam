@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.two.d;
+
+/**
+ *
+ * @author Admin
+ */
+public class TwoD {
+String author1 = "Ainebyoona";
+String author2 = "ainebyoona";
+String author3 = new String("Ainebyoona");
+
+System.out.println(author1 == author3); // false
+System.out.println(author1.equalsIgnoreCase(author2)); // true
+}
+    
